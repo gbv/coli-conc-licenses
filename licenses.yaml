@@ -1,0 +1,187 @@
+---
+
+uri: http://coli-conc.gbv.de/publications/licenses/
+prefLabel:
+  en: coli-conc licenses
+type:
+  - http://www.w3.org/2004/02/skos/core#ConceptScheme
+license:
+  - uri: http://creativecommons.org/publicdomain/zero/1.0/
+
+concepts:
+  - uri: http://creativecommons.org/licenses/by-nc-nd/3.0/
+    prefLabel:
+      en: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported
+    notation:
+      - CC BY-NC-ND 3.0
+    depiction:
+      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-nd.svg
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/14185
+      - http://www.wikidata.org/entity/Q19125045
+
+  - uri: http://creativecommons.org/licenses/by-nc-nd/4.0/
+    prefLabel:
+      en: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+    notation:
+      - CC BY-NC-ND 4.0
+    depiction:
+      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-nd.svg
+    identifier:
+      - http://www.wikidata.org/entity/Q24082749
+
+  - uri: http://creativecommons.org/licenses/by-nc-sa/3.0/
+    prefLabel:
+      en: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+    depiction:
+      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-sa.svg
+    notation:
+      - CC BY-NC-SA 3.0
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/14184
+      - http://www.wikidata.org/entity/Q15643954 
+
+  - uri: http://creativecommons.org/licenses/by-nc-sa/4.0/
+    prefLabel:
+      en: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+    notation:
+      - CC BY-NC-SA 4.0
+    depiction:
+      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-sa.svg
+
+  - uri: http://creativecommons.org/licenses/by-nc/3.0/
+    prefLabel:
+      en: Creative Commons Attribution-NonCommercial 3.0 Unported
+    notation:
+      - CC BY-NC 3.0
+    depiction:
+      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc.svg
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/14183
+      - http://www.wikidata.org/entity/Q18810331
+
+  - uri: http://creativecommons.org/licenses/by-nc/4.0/
+    prefLabel:
+      en: Creative Commons Attribution-NonCommercial 4.0 International
+    notation:
+      - CC BY-NC 4.0
+    depiction:
+      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc.svg
+
+  - uri: http://creativecommons.org/licenses/by-nd/3.0/
+    prefLabel:
+      en: Creative Commons Attribution-NoDerivs 3.0 Unported
+    depiction:
+      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nd.svg
+    notation:
+      - CC BY-ND 3.0
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/14182
+      - http://www.wikidata.org/entity/Q18810160
+
+  - uri: http://creativecommons.org/licenses/by-nd/4.0/
+    prefLabel:
+      en: Creative Commons Attribution-NoDerivatives 4.0 International
+    depiction:
+      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nd.svg
+    notation:
+      - CC BY-ND 4.0
+
+  - uri: http://creativecommons.org/licenses/by-sa/3.0/
+    prefLabel:
+      en: Creative Commons Attribution-ShareAlike 3.0 Unported 
+    notation:
+      - CC BY-SA 3.0
+    depiction:
+      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-sa.svg
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/14181
+      - http://www.wikidata.org/entity/Q14946043
+
+  - uri: http://creativecommons.org/licenses/by-sa/4.0/
+    prefLabel:
+      en: Creative Commons Attribution-ShareAlike 4.0 International
+    notation:
+      - CC BY-SA 4.0
+    depiction:
+      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-sa.svg
+    identifier:
+      - http://www.wikidata.org/entity/Q18199165
+
+  - uri: http://creativecommons.org/licenses/by/3.0/
+    prefLabel:
+      en: Creative Commons Attribution 3.0 Unported
+    notation:
+      - CC BY 3.0
+    depiction:
+      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/14180
+      - http://www.wikidata.org/entity/Q14947546
+
+  - uri: http://creativecommons.org/licenses/by/4.0/
+    prefLabel:
+      en: Creative Commons Attribution 4.0 International
+    notation:
+      - CC BY 4.0
+    depiction:
+      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg
+    identifier:
+      - http://www.wikidata.org/entity/Q20007257
+
+  - uri: http://creativecommons.org/publicdomain/zero/1.0/
+    prefLabel:
+      en: Creative Commons Zero 1.0 Universal Public Domain Dedication
+    notation:
+      - CC0 1.0
+      - CC Zero
+    depiction:
+      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/publicdomain.svg
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/14179
+      - https://www.wikidata.org/wiki/Q6938433
+
+  - uri: http://opendatacommons.org/licenses/pddl/
+    prefLabel:
+      en: Open Data Commons Public Domain Dedication and License
+    notation:
+      - PDDL
+    identifier:
+      - http://www.wikidata.org/entity/Q24273512
+
+  - uri: http://www.opendatacommons.org/licenses/by/1.0/
+    prefLabel:
+      en: Open Data Commons Attribution License
+    notation:
+      - ODC-By
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/51175
+
+  - uri: http://www.opendatacommons.org/licenses/odbl/
+    prefLabel:
+      en: Open Data Commons Open Database License
+    notation:
+      - ODbL
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/51170
+
+  - uri: https://www.wikidata.org/wiki/Q1376919
+    prefLabel:
+      en: European Union Public License
+    notation:
+      - EUPL
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/14186
+
+  - uri: https://www.wikidata.org/wiki/Q152481
+    notation:
+      - WTFPL
+    prefLabel: 
+      en: Do What the Fuck You Want to Public License
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/14188
+    depiction:
+      - https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/WTFPL_badge.svg/80px-WTFPL_badge.svg.png
+
+# vim: ts=2 sts=2 sw=2 expandtab
+...
