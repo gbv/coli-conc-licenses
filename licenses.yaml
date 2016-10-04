@@ -9,6 +9,44 @@ license:
   - uri: http://creativecommons.org/publicdomain/zero/1.0/
 
 concepts:
+
+  - uri: http://creativecommons.org/publicdomain/zero/1.0/
+    prefLabel:
+      en: Creative Commons Zero 1.0 Universal Public Domain Dedication
+    notation:
+      - CC0 1.0
+      - CC Zero
+    depiction:
+      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/cc-zero.svg
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/14179
+      - http://www.wikidata.org/entity/Q6938433
+
+  - uri: http://opendatacommons.org/licenses/pddl/
+    prefLabel:
+      en: Open Data Commons Public Domain Dedication and License
+    notation:
+      - PDDL
+    identifier:
+      - http://www.wikidata.org/entity/Q24273512
+
+  - uri: http://www.opendatacommons.org/licenses/by/1.0/
+    prefLabel:
+      en: Open Data Commons Attribution License
+    notation:
+      - ODC-By
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/51175
+
+  - uri: http://www.opendatacommons.org/licenses/odbl/
+    prefLabel:
+      en: Open Data Commons Open Database License
+    notation:
+      - ODbL
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/51170
+
+
   - uri: http://creativecommons.org/licenses/by-nc-nd/3.0/
     prefLabel:
       en: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported
@@ -129,57 +167,23 @@ concepts:
     identifier:
       - http://www.wikidata.org/entity/Q20007257
 
-  - uri: http://creativecommons.org/publicdomain/zero/1.0/
-    prefLabel:
-      en: Creative Commons Zero 1.0 Universal Public Domain Dedication
-    notation:
-      - CC0 1.0
-      - CC Zero
-    depiction:
-      - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/publicdomain.svg
-    identifier:
-      - http://bartoc.org/en/taxonomy/term/14179
-      - https://www.wikidata.org/wiki/Q6938433
-
-  - uri: http://opendatacommons.org/licenses/pddl/
-    prefLabel:
-      en: Open Data Commons Public Domain Dedication and License
-    notation:
-      - PDDL
-    identifier:
-      - http://www.wikidata.org/entity/Q24273512
-
-  - uri: http://www.opendatacommons.org/licenses/by/1.0/
-    prefLabel:
-      en: Open Data Commons Attribution License
-    notation:
-      - ODC-By
-    identifier:
-      - http://bartoc.org/en/taxonomy/term/51175
-
-  - uri: http://www.opendatacommons.org/licenses/odbl/
-    prefLabel:
-      en: Open Data Commons Open Database License
-    notation:
-      - ODbL
-    identifier:
-      - http://bartoc.org/en/taxonomy/term/51170
-
-  - uri: https://www.wikidata.org/wiki/Q1376919
+  - uri: https://joinup.ec.europa.eu/community/eupl/og_page/eupl 
     prefLabel:
       en: European Union Public License
     notation:
       - EUPL
     identifier:
       - http://bartoc.org/en/taxonomy/term/14186
+      - http://www.wikidata.org/entity/Q1376919
 
-  - uri: https://www.wikidata.org/wiki/Q152481
+  - uri: http://www.wtfpl.net/
     notation:
       - WTFPL
     prefLabel: 
       en: Do What the Fuck You Want to Public License
     identifier:
       - http://bartoc.org/en/taxonomy/term/14188
+      - http://www.wikidata.org/entity/Q152481
     depiction:
       - https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/WTFPL_badge.svg/80px-WTFPL_badge.svg.png
 
