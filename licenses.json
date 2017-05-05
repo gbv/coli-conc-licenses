@@ -2,25 +2,40 @@
    "@context" : "https://gbv.github.io/jskos/context.json",
    "concepts" : [
       {
+         "altLabel" : {
+            "en" : [
+               "CC Zero",
+               "Creative Commons CC0"
+            ]
+         },
          "depiction" : [
             "http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/cc-zero.svg"
          ],
          "identifier" : [
+            "http://www.wikidata.org/entity/Q6938433",
             "http://bartoc.org/en/taxonomy/term/14179",
-            "http://www.wikidata.org/entity/Q6938433"
+            "http://purl.org/NET/rdflicense/cc-zero1.0"
          ],
          "notation" : [
-            "CC0 1.0",
-            "CC Zero"
+            "CC0 1.0"
          ],
          "prefLabel" : {
             "en" : "Creative Commons Zero 1.0 Universal Public Domain Dedication"
          },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Creative Commons",
+                  "uri" : "http://viaf.org/viaf/134166320"
+               }
+            }
+         ],
          "uri" : "http://creativecommons.org/publicdomain/zero/1.0/"
       },
       {
          "identifier" : [
-            "http://www.wikidata.org/entity/Q24273512"
+            "http://www.wikidata.org/entity/Q24273512",
+            "http://purl.org/NET/rdflicense/odbc-pddl1.0"
          ],
          "notation" : [
             "PDDL"
@@ -28,11 +43,17 @@
          "prefLabel" : {
             "en" : "Open Data Commons Public Domain Dedication and License"
          },
+         "publisher" : {
+            "prefLabel" : {
+               "en" : "Open Data Commons"
+            }
+         },
          "uri" : "http://opendatacommons.org/licenses/pddl/"
       },
       {
          "identifier" : [
-            "http://bartoc.org/en/taxonomy/term/51175"
+            "http://bartoc.org/en/taxonomy/term/51175",
+            "http://purl.org/NET/rdflicense/odbc-by1.0"
          ],
          "notation" : [
             "ODC-By"
@@ -40,17 +61,28 @@
          "prefLabel" : {
             "en" : "Open Data Commons Attribution License"
          },
+         "publisher" : {
+            "prefLabel" : {
+               "en" : "Open Data Commons"
+            }
+         },
          "uri" : "http://www.opendatacommons.org/licenses/by/1.0/"
       },
       {
          "identifier" : [
-            "http://bartoc.org/en/taxonomy/term/51170"
+            "http://bartoc.org/en/taxonomy/term/51170",
+            "http://purl.org/NET/rdflicense/odbl1.0"
          ],
          "notation" : [
             "ODbL"
          ],
          "prefLabel" : {
             "en" : "Open Data Commons Open Database License"
+         },
+         "publisher" : {
+            "prefLabel" : {
+               "en" : "Open Data Commons"
+            }
          },
          "uri" : "http://www.opendatacommons.org/licenses/odbl/"
       },
@@ -60,7 +92,8 @@
          ],
          "identifier" : [
             "http://bartoc.org/en/taxonomy/term/14185",
-            "http://www.wikidata.org/entity/Q19125045"
+            "http://www.wikidata.org/entity/Q19125045",
+            "http://purl.org/NET/rdflicense/cc-by-nc-nd3.0"
          ],
          "notation" : [
             "CC BY-NC-ND 3.0"
@@ -68,6 +101,14 @@
          "prefLabel" : {
             "en" : "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported"
          },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Creative Commons",
+                  "uri" : "http://viaf.org/viaf/134166320"
+               }
+            }
+         ],
          "uri" : "http://creativecommons.org/licenses/by-nc-nd/3.0/"
       },
       {
@@ -83,6 +124,14 @@
          "prefLabel" : {
             "en" : "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International"
          },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Creative Commons",
+                  "uri" : "http://viaf.org/viaf/134166320"
+               }
+            }
+         ],
          "uri" : "http://creativecommons.org/licenses/by-nc-nd/4.0/"
       },
       {
@@ -91,7 +140,8 @@
          ],
          "identifier" : [
             "http://bartoc.org/en/taxonomy/term/14184",
-            "http://www.wikidata.org/entity/Q15643954"
+            "http://www.wikidata.org/entity/Q15643954",
+            "http://purl.org/NET/rdflicense/cc-by-nc-sa3.0"
          ],
          "notation" : [
             "CC BY-NC-SA 3.0"
@@ -99,6 +149,14 @@
          "prefLabel" : {
             "en" : "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported"
          },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Creative Commons",
+                  "uri" : "http://viaf.org/viaf/134166320"
+               }
+            }
+         ],
          "uri" : "http://creativecommons.org/licenses/by-nc-sa/3.0/"
       },
       {
@@ -111,6 +169,14 @@
          "prefLabel" : {
             "en" : "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
          },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Creative Commons",
+                  "uri" : "http://viaf.org/viaf/134166320"
+               }
+            }
+         ],
          "uri" : "http://creativecommons.org/licenses/by-nc-sa/4.0/"
       },
       {
@@ -119,7 +185,8 @@
          ],
          "identifier" : [
             "http://bartoc.org/en/taxonomy/term/14183",
-            "http://www.wikidata.org/entity/Q18810331"
+            "http://www.wikidata.org/entity/Q18810331",
+            "http://purl.org/NET/rdflicense/cc-by-nc3.0"
          ],
          "notation" : [
             "CC BY-NC 3.0"
@@ -127,6 +194,14 @@
          "prefLabel" : {
             "en" : "Creative Commons Attribution-NonCommercial 3.0 Unported"
          },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Creative Commons",
+                  "uri" : "http://viaf.org/viaf/134166320"
+               }
+            }
+         ],
          "uri" : "http://creativecommons.org/licenses/by-nc/3.0/"
       },
       {
@@ -139,6 +214,14 @@
          "prefLabel" : {
             "en" : "Creative Commons Attribution-NonCommercial 4.0 International"
          },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Creative Commons",
+                  "uri" : "http://viaf.org/viaf/134166320"
+               }
+            }
+         ],
          "uri" : "http://creativecommons.org/licenses/by-nc/4.0/"
       },
       {
@@ -147,7 +230,8 @@
          ],
          "identifier" : [
             "http://bartoc.org/en/taxonomy/term/14182",
-            "http://www.wikidata.org/entity/Q18810160"
+            "http://www.wikidata.org/entity/Q18810160",
+            "http://purl.org/NET/rdflicense/cc-by-nd3.0"
          ],
          "notation" : [
             "CC BY-ND 3.0"
@@ -155,6 +239,14 @@
          "prefLabel" : {
             "en" : "Creative Commons Attribution-NoDerivs 3.0 Unported"
          },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Creative Commons",
+                  "uri" : "http://viaf.org/viaf/134166320"
+               }
+            }
+         ],
          "uri" : "http://creativecommons.org/licenses/by-nd/3.0/"
       },
       {
@@ -167,6 +259,14 @@
          "prefLabel" : {
             "en" : "Creative Commons Attribution-NoDerivatives 4.0 International"
          },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Creative Commons",
+                  "uri" : "http://viaf.org/viaf/134166320"
+               }
+            }
+         ],
          "uri" : "http://creativecommons.org/licenses/by-nd/4.0/"
       },
       {
@@ -175,7 +275,8 @@
          ],
          "identifier" : [
             "http://bartoc.org/en/taxonomy/term/14181",
-            "http://www.wikidata.org/entity/Q14946043"
+            "http://www.wikidata.org/entity/Q14946043",
+            "http://purl.org/NET/rdflicense/cc-by-sa3.0"
          ],
          "notation" : [
             "CC BY-SA 3.0"
@@ -183,6 +284,14 @@
          "prefLabel" : {
             "en" : "Creative Commons Attribution-ShareAlike 3.0 Unported"
          },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Creative Commons",
+                  "uri" : "http://viaf.org/viaf/134166320"
+               }
+            }
+         ],
          "uri" : "http://creativecommons.org/licenses/by-sa/3.0/"
       },
       {
@@ -198,6 +307,14 @@
          "prefLabel" : {
             "en" : "Creative Commons Attribution-ShareAlike 4.0 International"
          },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Creative Commons",
+                  "uri" : "http://viaf.org/viaf/134166320"
+               }
+            }
+         ],
          "uri" : "http://creativecommons.org/licenses/by-sa/4.0/"
       },
       {
@@ -206,7 +323,8 @@
          ],
          "identifier" : [
             "http://bartoc.org/en/taxonomy/term/14180",
-            "http://www.wikidata.org/entity/Q14947546"
+            "http://www.wikidata.org/entity/Q14947546",
+            "http://purl.org/NET/rdflicense/cc-by3.0"
          ],
          "notation" : [
             "CC BY 3.0"
@@ -214,6 +332,14 @@
          "prefLabel" : {
             "en" : "Creative Commons Attribution 3.0 Unported"
          },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Creative Commons",
+                  "uri" : "http://viaf.org/viaf/134166320"
+               }
+            }
+         ],
          "uri" : "http://creativecommons.org/licenses/by/3.0/"
       },
       {
@@ -229,12 +355,21 @@
          "prefLabel" : {
             "en" : "Creative Commons Attribution 4.0 International"
          },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Creative Commons",
+                  "uri" : "http://viaf.org/viaf/134166320"
+               }
+            }
+         ],
          "uri" : "http://creativecommons.org/licenses/by/4.0/"
       },
       {
          "identifier" : [
             "http://bartoc.org/en/taxonomy/term/14186",
-            "http://www.wikidata.org/entity/Q1376919"
+            "http://www.wikidata.org/entity/Q1376919",
+            "http://purl.org/NET/rdflicense/EUPL1.1"
          ],
          "notation" : [
             "EUPL"
@@ -242,6 +377,14 @@
          "prefLabel" : {
             "en" : "European Union Public License"
          },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "European Commission"
+               },
+               "uri" : "https://viaf.org/viaf/125207308"
+            }
+         ],
          "uri" : "https://joinup.ec.europa.eu/community/eupl/og_page/eupl"
       },
       {
@@ -261,13 +404,16 @@
          "uri" : "http://www.wtfpl.net/"
       }
    ],
+   "identifier" : [
+      "http://uri.gbv.de/terminology/license/"
+   ],
    "license" : [
       {
          "uri" : "http://creativecommons.org/publicdomain/zero/1.0/"
       }
    ],
    "prefLabel" : {
-      "en" : "coli-conc licenses"
+      "en" : "Data licenses"
    },
    "type" : [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"

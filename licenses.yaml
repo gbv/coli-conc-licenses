@@ -2,25 +2,35 @@
 
 uri: http://coli-conc.gbv.de/publications/licenses/
 prefLabel:
-  en: coli-conc licenses
+  en: Data licenses
 type:
   - http://www.w3.org/2004/02/skos/core#ConceptScheme
 license:
   - uri: http://creativecommons.org/publicdomain/zero/1.0/
+identifier: 
+  - http://uri.gbv.de/terminology/license/
 
 concepts:
 
   - uri: http://creativecommons.org/publicdomain/zero/1.0/
     prefLabel:
       en: Creative Commons Zero 1.0 Universal Public Domain Dedication
+    altLabel:
+      en: 
+        - CC Zero
+        - Creative Commons CC0
     notation:
       - CC0 1.0
-      - CC Zero
     depiction:
       - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/cc-zero.svg
     identifier:
-      - http://bartoc.org/en/taxonomy/term/14179
       - http://www.wikidata.org/entity/Q6938433
+      - http://bartoc.org/en/taxonomy/term/14179
+      - http://purl.org/NET/rdflicense/cc-zero1.0
+    publisher:
+      - prefLabel:
+          en: Creative Commons
+          uri: http://viaf.org/viaf/134166320
 
   - uri: http://opendatacommons.org/licenses/pddl/
     prefLabel:
@@ -29,6 +39,10 @@ concepts:
       - PDDL
     identifier:
       - http://www.wikidata.org/entity/Q24273512
+      - http://purl.org/NET/rdflicense/odbc-pddl1.0
+    publisher:
+      prefLabel:
+        en: Open Data Commons
 
   - uri: http://www.opendatacommons.org/licenses/by/1.0/
     prefLabel:
@@ -37,6 +51,10 @@ concepts:
       - ODC-By
     identifier:
       - http://bartoc.org/en/taxonomy/term/51175
+      - http://purl.org/NET/rdflicense/odbc-by1.0
+    publisher:
+      prefLabel:
+        en: Open Data Commons
 
   - uri: http://www.opendatacommons.org/licenses/odbl/
     prefLabel:
@@ -45,7 +63,10 @@ concepts:
       - ODbL
     identifier:
       - http://bartoc.org/en/taxonomy/term/51170
-
+      - http://purl.org/NET/rdflicense/odbl1.0
+    publisher:
+      prefLabel:
+        en: Open Data Commons
 
   - uri: http://creativecommons.org/licenses/by-nc-nd/3.0/
     prefLabel:
@@ -57,6 +78,11 @@ concepts:
     identifier:
       - http://bartoc.org/en/taxonomy/term/14185
       - http://www.wikidata.org/entity/Q19125045
+      - http://purl.org/NET/rdflicense/cc-by-nc-nd3.0
+    publisher:
+      - prefLabel:
+          en: Creative Commons
+          uri: http://viaf.org/viaf/134166320
 
   - uri: http://creativecommons.org/licenses/by-nc-nd/4.0/
     prefLabel:
@@ -67,6 +93,10 @@ concepts:
       - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-nd.svg
     identifier:
       - http://www.wikidata.org/entity/Q24082749
+    publisher:
+      - prefLabel:
+          en: Creative Commons
+          uri: http://viaf.org/viaf/134166320
 
   - uri: http://creativecommons.org/licenses/by-nc-sa/3.0/
     prefLabel:
@@ -78,6 +108,11 @@ concepts:
     identifier:
       - http://bartoc.org/en/taxonomy/term/14184
       - http://www.wikidata.org/entity/Q15643954 
+      - http://purl.org/NET/rdflicense/cc-by-nc-sa3.0
+    publisher:
+      - prefLabel:
+          en: Creative Commons
+          uri: http://viaf.org/viaf/134166320
 
   - uri: http://creativecommons.org/licenses/by-nc-sa/4.0/
     prefLabel:
@@ -86,6 +121,10 @@ concepts:
       - CC BY-NC-SA 4.0
     depiction:
       - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-sa.svg
+    publisher:
+      - prefLabel:
+          en: Creative Commons
+          uri: http://viaf.org/viaf/134166320
 
   - uri: http://creativecommons.org/licenses/by-nc/3.0/
     prefLabel:
@@ -97,6 +136,11 @@ concepts:
     identifier:
       - http://bartoc.org/en/taxonomy/term/14183
       - http://www.wikidata.org/entity/Q18810331
+      - http://purl.org/NET/rdflicense/cc-by-nc3.0
+    publisher:
+      - prefLabel:
+          en: Creative Commons
+          uri: http://viaf.org/viaf/134166320
 
   - uri: http://creativecommons.org/licenses/by-nc/4.0/
     prefLabel:
@@ -105,6 +149,10 @@ concepts:
       - CC BY-NC 4.0
     depiction:
       - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc.svg
+    publisher:
+      - prefLabel:
+          en: Creative Commons
+          uri: http://viaf.org/viaf/134166320
 
   - uri: http://creativecommons.org/licenses/by-nd/3.0/
     prefLabel:
@@ -116,6 +164,11 @@ concepts:
     identifier:
       - http://bartoc.org/en/taxonomy/term/14182
       - http://www.wikidata.org/entity/Q18810160
+      - http://purl.org/NET/rdflicense/cc-by-nd3.0
+    publisher:
+      - prefLabel:
+          en: Creative Commons
+          uri: http://viaf.org/viaf/134166320
 
   - uri: http://creativecommons.org/licenses/by-nd/4.0/
     prefLabel:
@@ -124,6 +177,10 @@ concepts:
       - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nd.svg
     notation:
       - CC BY-ND 4.0
+    publisher:
+      - prefLabel:
+          en: Creative Commons
+          uri: http://viaf.org/viaf/134166320
 
   - uri: http://creativecommons.org/licenses/by-sa/3.0/
     prefLabel:
@@ -135,6 +192,11 @@ concepts:
     identifier:
       - http://bartoc.org/en/taxonomy/term/14181
       - http://www.wikidata.org/entity/Q14946043
+      - http://purl.org/NET/rdflicense/cc-by-sa3.0
+    publisher:
+      - prefLabel:
+          en: Creative Commons
+          uri: http://viaf.org/viaf/134166320
 
   - uri: http://creativecommons.org/licenses/by-sa/4.0/
     prefLabel:
@@ -145,6 +207,10 @@ concepts:
       - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-sa.svg
     identifier:
       - http://www.wikidata.org/entity/Q18199165
+    publisher:
+      - prefLabel:
+          en: Creative Commons
+          uri: http://viaf.org/viaf/134166320
 
   - uri: http://creativecommons.org/licenses/by/3.0/
     prefLabel:
@@ -156,6 +222,11 @@ concepts:
     identifier:
       - http://bartoc.org/en/taxonomy/term/14180
       - http://www.wikidata.org/entity/Q14947546
+      - http://purl.org/NET/rdflicense/cc-by3.0
+    publisher:
+      - prefLabel:
+          en: Creative Commons
+          uri: http://viaf.org/viaf/134166320
 
   - uri: http://creativecommons.org/licenses/by/4.0/
     prefLabel:
@@ -166,6 +237,10 @@ concepts:
       - http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg
     identifier:
       - http://www.wikidata.org/entity/Q20007257
+    publisher:
+      - prefLabel:
+          en: Creative Commons
+          uri: http://viaf.org/viaf/134166320
 
   - uri: https://joinup.ec.europa.eu/community/eupl/og_page/eupl 
     prefLabel:
@@ -175,6 +250,11 @@ concepts:
     identifier:
       - http://bartoc.org/en/taxonomy/term/14186
       - http://www.wikidata.org/entity/Q1376919
+      - http://purl.org/NET/rdflicense/EUPL1.1
+    publisher:
+      - prefLabel:
+          en: European Commission
+        uri: https://viaf.org/viaf/125207308
 
   - uri: http://www.wtfpl.net/
     notation:

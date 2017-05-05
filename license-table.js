@@ -20,6 +20,8 @@ angular.module('LicenseTable', ['ngSKOS'])
             scope.ids.push({title:"BARTOC",url:id});
           } else if (id.match(/^http:\/\/www\.wikidata\.org/)) {
             scope.ids.push({title:"Wikidata",url:id});
+          } else if (id.match(/^http:\/\/purl\.org\/NET\/rdflicense/)) {
+            scope.ids.push({title:"RDFLicense",url:id});
           } else {
             scope.ids.push({title:id, url:id});
           }
