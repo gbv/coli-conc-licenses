@@ -22,6 +22,8 @@ angular.module('LicenseTable', ['ngSKOS'])
             scope.ids.push({title:"Wikidata",url:id});
           } else if (id.match(/^http:\/\/purl\.org\/NET\/rdflicense/)) {
             scope.ids.push({title:"RDFLicense",url:id});
+          } else if (id.match(/^https:\/\/licensedb.org\/id/)) {
+            scope.ids.push({title:"LicenseDB",url:id});
           } else {
             scope.ids.push({title:id, url:id});
           }

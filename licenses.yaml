@@ -27,6 +27,7 @@ concepts:
       - http://www.wikidata.org/entity/Q6938433
       - http://bartoc.org/en/taxonomy/term/14179
       - http://purl.org/NET/rdflicense/cc-zero1.0
+      - https://licensedb.org/id/CC0
     publisher:
       - prefLabel:
           en: Creative Commons
@@ -40,6 +41,7 @@ concepts:
     identifier:
       - http://www.wikidata.org/entity/Q24273512
       - http://purl.org/NET/rdflicense/odbc-pddl1.0
+      - https://licensedb.org/id/PDDL-1
     publisher:
       prefLabel:
         en: Open Data Commons
@@ -52,6 +54,7 @@ concepts:
     identifier:
       - http://bartoc.org/en/taxonomy/term/51175
       - http://purl.org/NET/rdflicense/odbc-by1.0
+      - https://licensedb.org/id/ODC-By-1
     publisher:
       prefLabel:
         en: Open Data Commons
@@ -64,6 +67,7 @@ concepts:
     identifier:
       - http://bartoc.org/en/taxonomy/term/51170
       - http://purl.org/NET/rdflicense/odbl1.0
+      - https://licensedb.org/id/ODbL-1
     publisher:
       prefLabel:
         en: Open Data Commons
@@ -254,7 +258,7 @@ concepts:
     publisher:
       - prefLabel:
           en: European Commission
-        uri: https://viaf.org/viaf/125207308
+        uri: http://viaf.org/viaf/125207308
 
   - uri: http://www.wtfpl.net/
     notation:
@@ -264,8 +268,40 @@ concepts:
     identifier:
       - http://bartoc.org/en/taxonomy/term/14188
       - http://www.wikidata.org/entity/Q152481
+      - https://licensedb.org/id/WTFPL-1.1
+      - https://licensedb.org/id/WTFPL-2
     depiction:
       - https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/WTFPL_badge.svg/80px-WTFPL_badge.svg.png
+
+  - uri: https://www.apache.org/licenses/LICENSE-2.0
+    notation: 
+      - Apache-2.0
+    prefLabel:
+      en: Apache License 2.0
+    identifier:
+      - http://bartoc.org/en/taxonomy/term/51587
+      - http://www.wikidata.org/entity/Q13785927
+      - http://purl.org/NET/rdflicense/APACHE2.0
+      - https://licensedb.org/id/Apache-2
+    publisher:
+      - prefLabel:
+          en: Apache Software Foundation
+        uri: https://viaf.org/viaf/187308307
+
+  - uri: http://reference.data.gov.uk/id/open-government-licence
+    notation:
+      - OGL
+    prefLabel:
+      en: Open Government Licence
+    identifier:
+      - http://bartoc.org/en/License/Open-Government-Licence-OGL
+      - http://www.wikidata.org/entity/Q17016921
+    publisher:
+      - prefLabel:
+          en: Government of the United Kingdom
+        uri: http://viaf.org/viaf/124906873
+    depiction:
+      - http://www.nationalarchives.gov.uk/images/infoman/ogl-symbol-41px-retina-black.png
 
 # vim: ts=2 sts=2 sw=2 expandtab
 ...

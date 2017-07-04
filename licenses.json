@@ -14,7 +14,8 @@
          "identifier" : [
             "http://www.wikidata.org/entity/Q6938433",
             "http://bartoc.org/en/taxonomy/term/14179",
-            "http://purl.org/NET/rdflicense/cc-zero1.0"
+            "http://purl.org/NET/rdflicense/cc-zero1.0",
+            "https://licensedb.org/id/CC0"
          ],
          "notation" : [
             "CC0 1.0"
@@ -35,7 +36,8 @@
       {
          "identifier" : [
             "http://www.wikidata.org/entity/Q24273512",
-            "http://purl.org/NET/rdflicense/odbc-pddl1.0"
+            "http://purl.org/NET/rdflicense/odbc-pddl1.0",
+            "https://licensedb.org/id/PDDL-1"
          ],
          "notation" : [
             "PDDL"
@@ -53,7 +55,8 @@
       {
          "identifier" : [
             "http://bartoc.org/en/taxonomy/term/51175",
-            "http://purl.org/NET/rdflicense/odbc-by1.0"
+            "http://purl.org/NET/rdflicense/odbc-by1.0",
+            "https://licensedb.org/id/ODC-By-1"
          ],
          "notation" : [
             "ODC-By"
@@ -71,7 +74,8 @@
       {
          "identifier" : [
             "http://bartoc.org/en/taxonomy/term/51170",
-            "http://purl.org/NET/rdflicense/odbl1.0"
+            "http://purl.org/NET/rdflicense/odbl1.0",
+            "https://licensedb.org/id/ODbL-1"
          ],
          "notation" : [
             "ODbL"
@@ -382,7 +386,7 @@
                "prefLabel" : {
                   "en" : "European Commission"
                },
-               "uri" : "https://viaf.org/viaf/125207308"
+               "uri" : "http://viaf.org/viaf/125207308"
             }
          ],
          "uri" : "https://joinup.ec.europa.eu/community/eupl/og_page/eupl"
@@ -393,7 +397,9 @@
          ],
          "identifier" : [
             "http://bartoc.org/en/taxonomy/term/14188",
-            "http://www.wikidata.org/entity/Q152481"
+            "http://www.wikidata.org/entity/Q152481",
+            "https://licensedb.org/id/WTFPL-1.1",
+            "https://licensedb.org/id/WTFPL-2"
          ],
          "notation" : [
             "WTFPL"
@@ -402,6 +408,53 @@
             "en" : "Do What the Fuck You Want to Public License"
          },
          "uri" : "http://www.wtfpl.net/"
+      },
+      {
+         "identifier" : [
+            "http://bartoc.org/en/taxonomy/term/51587",
+            "http://www.wikidata.org/entity/Q13785927",
+            "http://purl.org/NET/rdflicense/APACHE2.0",
+            "https://licensedb.org/id/Apache-2"
+         ],
+         "notation" : [
+            "Apache 2.0"
+         ],
+         "prefLabel" : {
+            "en" : "Apache License 2.0"
+         },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Apache Software Foundation"
+               },
+               "uri" : "https://viaf.org/viaf/187308307"
+            }
+         ],
+         "uri" : "https://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+         "depiction" : [
+            "http://www.nationalarchives.gov.uk/images/infoman/ogl-symbol-41px-retina-black.png"
+         ],
+         "identifier" : [
+            "http://bartoc.org/en/License/Open-Government-Licence-OGL",
+            "http://www.wikidata.org/entity/Q17016921"
+         ],
+         "notation" : [
+            "OGL"
+         ],
+         "prefLabel" : {
+            "en" : "Open Government Licence"
+         },
+         "publisher" : [
+            {
+               "prefLabel" : {
+                  "en" : "Government of the United Kingdom"
+               },
+               "uri" : "http://viaf.org/viaf/124906873"
+            }
+         ],
+         "uri" : "http://reference.data.gov.uk/id/open-government-licence"
       }
    ],
    "identifier" : [
